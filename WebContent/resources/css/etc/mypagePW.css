@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+#mypageSet{
+	overflow: hidden;
+}
+
+#mypageSet .mypageSub{
+	width:100%;
+	height:700px;
+}
+
+.mypageSub{
+	width:100%;
+	height:540px;
+	margin-top:30px;
+	margin-bottom:30px;
+	position:relative;
+	background-color:#eee;
+	/* border:1px solid red; */
+}
+
+.myImport {
+	width:100%;
+	height:540px;
+}
+
+.myImport h2{
+	margin:10px;
+	color:#3b3c56;
+	font-size:30px;
+	font-weight:900;
+	top:200px;
+	left:37%;
+	position:relative;
+}
+
+.myPg{
+	width:50%;
+	height:300px;
+	position:relative;
+}
+
+.myPg ul{
+	display: block;
+	overflow: hidden;
+	top:250px;
+	left:60%;
+	position:relative;
+	/* border:1px solid blue; */
+}
+
+.myPg li{
+	float: left;
+	margin-right:5px;
+	font-size: 20px;
+	text-align: center;
+	left:0%;
+	position:relative;
+}
+
+.myPg li input{
+	width:150%;
+	height:30px;
+}
+
+#myPgsub p{
+	margin-top:3px;
+	margin-right:5px;
+}
+
+#pass, #false{
+	width:60px;
+	height:35px;
+	color:#fff;
+	left:130%;
+	background-color: #3b3c56;
+	position:relative;
+}

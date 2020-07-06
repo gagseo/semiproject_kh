@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+#searchMapSet{
+	overflow: hidden;
+}
+
+#searchMapSet .searchBox{
+	width:100%;
+	height:870px;
+	border:1px solid red;
+}
+
+.mapPg{
+	width:100%;
+	height:500px;
+	left:10px;
+	position:relative;
+}
+
+/* 지도를 통한 검색 환경  */
+.searchSub1{
+	width:100%;;
+	height:460px;
+	margin-top:20px;
+	/*border:1px solid blue;*/
+}
+
+/* 검색하기  */
+.searchSub1 form{
+	width:400px;
+	position:relative;
+	left:220px;
+	margin:10px;
+	/* border:1px solid red; */
+}
+
+.search_img{
+	width: 98%; 
+	height: 400px;
+	background-color: #eee;
+}
+
+.searchbar{
+	width:550px;
+	height:40px;
+	position:relative;
+	border:1px solid #3b3c56;
+	margin-left:10px;
+	background-color:#fff;
+}
+
+.searchbar select{
+	width:80px;
+	height:30px;
+	margin:5px;
+}
+
+.searchbar input{
+	font-size:16px;
+	width:320px;
+	padding:10px;
+	border:0;
+	outline:none;
+}
+
+.searchbar button{
+	width:70px;
+	height:40px;
+	border:0;
+	background-color:#3b3c56;
+	outline:none;
+	float:right;
+	color:#fff;
+	position:relative;
+}
+
+/* --------------------------------------------- */
+
+/* 검색부분에 대한 정보 표시 */
+.searchSub2{
+	width: 1050px;
+	height:340px;
+    top:10px;
+	padding:5px;
+	overflow-y:scroll;
+	position:relative;
+	/* border:1px solid blue; */
+}
+
+.searchSub2::-webkit-scrollbar { width: 20px; } /* 스크롤 바 */
+
+.searchSub2::-webkit-scrollbar-track { background-color:#eeeeee; } /* 스크롤 바 밑의 배경 */
+
+.searchSub2::-webkit-scrollbar-thumb { background: #3b3c56; } /* 실질적 스크롤 바 */
+
+.searchSub2::-webkit-scrollbar-thumb:hover { background: #3b3c56; } /* 실질적 스크롤 바 위에 마우스를 올려다 둘 때 */
+
+.searchSub2::-webkit-scrollbar-thumb:active { background: #6c6e9e; } /* 실질적 스크롤 바를 클릭할 때 */
+
+.searchSub2::-webkit-scrollbar-button { display: none; } /* 스크롤 바 상 하단 버튼 */
+
+.searchSub2 table{
+	width:1020px;
+	height:20px;
+	top:20px;
+}
+
+.searchSub2 th{
+	font-size:14px;
+	height:25px;
+	padding:3px;
+	color:#fff;
+	background-color:#3b3c56;
+}
+
+.searchSub2 td{
+	height:25px;
+	padding:3px;
+	font-size:14px;
+	text-align:center;
+	background-color:#eee;
+}
+

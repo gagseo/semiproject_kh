@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.writerPg{
+	width:1080px;
+	height:870px;
+	border:1px solid red;
+}
+
+.writerPg h2{
+	width:250px;
+	border-bottom:2px solid #3B3C56;
+	color:#3B3C56;
+	text-align: center;
+	font-size: 30px;
+	position:relative;
+	top:20px;
+	left:450px;
+}
+
+.writerTB{
+	width:980px;
+	height:700px;
+	top:40px;
+	left:40px;
+	position:relative;
+	border:1px solid green;
+}
+
+.writerTB table{
+	width:980px;
+	/* border:1px solid red; */
+}
+
+.writerTB th{
+	width:180px;
+	height:30px;
+	text-align: left;
+	font-size: 18px;
+	margin:5px;
+	padding-left:5px;
+	color:#fff;
+	background-color:#3b3c56;
+	/* border:1px solid cyan; */
+}
+
+.writerTB td{
+	height:30px;
+	text-align: left;
+	font-size: 15px;
+	margin:5px;
+	left:10px;
+	/* border:1px solid cyan; */
+}
+
+/* 제목부분 */
+#reviewTitle{
+	width:785px;
+	height:30px;
+	text-align: left;
+	font-size: 15px;
+	/* border:1px solid red; */
+}
+
+/* 공개설정부분 */
+.writerTB td ul{
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.writerTB td li{
+	float:left;
+	margin-left:10px;
+	font-size:15px;
+	text-align: left;
+}
+
+/* 내용부분 */
+#reviewContent{
+	width:785px;
+	height:550px;
+}
+
+/* 등록하기 버튼쪽 */
+#save{
+	width:150px;
+	height:40px;
+	position:relative;
+	float:right;
+	top:30px;
+	right:30px;
+	color:#fff;
+	background-color: #3B3C56;
+}

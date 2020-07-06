@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+#memberRevise{
+	overflow: hidden;
+}
+
+#memberRevise .mbSub{
+	width:100%;
+	height:900px;
+}
+
+.mbRevise{
+	width:100%;
+	height:540px;
+	top:30px;
+	left:20%;
+	bottom:30px;
+	position:relative;
+	background-color:#eee;
+	/* border:1px solid red; */
+}
+
+.mbRevise h2{
+	margin:10px;
+	color:#3b3c56;
+	font-size:35px;
+	top:30px;
+	left:30%;
+	font-size:30px;
+	font-weight:900;
+	position:relative;
+}
+
+.mbRevisesub{
+	width:80%;
+	height:300px;
+	top:30px;
+	position:relative;
+}
+
+.mbRevisesub table{
+	width:98%;
+	height:300px;
+	display: block;
+	overflow: hidden;
+	top:40px;
+	left:20%;
+	position:relative;
+	/* border:1px solid blue; */
+}
+
+.mbRevisesub th{
+	width:20%;
+	float: left;
+	margin:2px;
+	font-size: 16px;
+	text-align:right;
+	position:relative;
+}
+
+.mbRevisesub td{
+	width:70%;
+	height:30px;
+	float:left;
+	left:5%;
+	position:relative;
+}
+
+.mbRevisesub td input{
+}
+
+#myPgsub p{
+	margin-top:3px;
+	margin-right:5px;
+	font-size:12px;
+}
+
+#pass, #false{
+	width:60px;
+	height:35px;
+	color:#fff;
+	background-color: #3b3c56;
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+#reviewSet{
+	overflow: hidden;
+}
+
+#reviewSet .rvSet{
+	width:100%;
+	height: 870px;
+}
+
+.rvSet h1 {
+	margin: 10px;
+	font-size:25px;
+	text-align:center;
+	border-bottom: 2px solid #999;
+}
+
+/* 게시판 테이블  */
+.reviewList {
+	width:98%;
+	height: 50px;
+	position: relative;
+	margin-top: 20px;
+	left: 50px;
+	/*border: 1px solid blue;*/
+}
+
+.sub_review, .sub_ review th, .sub_ review td {
+	border: 0;
+}
+
+.sub_review a {
+	color: #383838;
+	text-decoration: none;
+}
+
+.sub_review {
+	width: 98%;
+	border-bottom: 1px solid #999;
+	color: #666;
+	font-size: 12px;
+	table-layout: fixed;
+}
+
+.sub_review caption {
+	display: none;
+}
+
+.sub_review th {
+	padding: 5px 0 6px;
+	/* border: 1px solid #999; */
+	border-bottom: 1px solid #b2b2b2;
+	background-color: #f1f1f4;
+	color: #333;
+	font-weight: bold;
+	line-height: 20px;
+	vertical-align: top;
+}
+
+.sub_review td {
+	padding: 8px 0 9px;
+	border-bottom: 1px solid #b2b2b2;
+	text-align: center;
+	line-height: 18px;
+}
+
+.sub_review .date, .sub_review .viewNo {
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 11px;
+	line-height: normal;
+}
+
+.sub_review .title {
+	text-align: left;
+	padding-left: 15px;
+	font-size: 13px;
+}
+
+/*  게시판 리스트 번호  */
+.subList {
+	margin: 8px;
+	font-size: 15px;
+	float: right;
+	border: 1px solid red;
+}
+
+.subList ul {
+	width:7%;
+	overflow: hidden;
+	display: block;
+}
+
+.subList li {
+	float: left;
+	padding-right: 5px;
+}
+
+.subList img {
+	width: 20%;
+	height: 20%;
+}
+
+/* 글쓰기 */
+.write {
+	border: 1px solid red;
+	background-color: #3b3c56;
+	width: 60px;
+	height: 30px;
+	margin: 5px;
+	left:45px;
+	position:relative;
+}
+
+.write a{
+	font-size:14px;
+	font-weight:bold;
+	color:#f3eed5;
+}
+
+/* 게시판 검색 기능 */
+.searchList {
+	width: 350px;
+	height:20px;
+	position: relative;
+	left: 280px;
+	padding: 5px 0 6px;
+	font-size: 18px;
+	border: 1px solid cyan;
+}
+
+.searchList select{
+	width:70px;
+	height:22px;
+	 bottom:3px;
+    position:relative;
+}
+
+#searchText{
+    height:18px;
+    bottom:5px;
+    position:relative;
+}
+
+#searchBt{
+	width:65px;
+    bottom:3px;
+    position:relative;
+}

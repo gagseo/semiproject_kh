@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.joinUs{
+	width:980px;
+	height:800px;
+	top:30px;
+	left:45px;
+	position:relative;
+	/* border:1px solid green; */
+	
+}
+
+.joinUs h1{
+	width:300px;
+	top:40px;
+    left:360px;
+    font-size:50px;
+    font-weight:bolder;
+    text-align:center;
+    text-decoration:underlin;
+    color:#3b3c56;
+	position:absolute;
+	border-bottom:2px solid #3b3c56;
+}
+
+/* 테이블을 통한 회원가입 스타일부분 */
+
+.joinVar{
+	width:800px;
+	height:570px;
+	position:absolute;
+	top:130px;
+	left:100px;
+	background-color:#eee;
+	/* border:1px solid blue; */
+}
+
+.joinVar table{
+	width:750px;
+	margin:20px;
+	font-size: 15px;
+	font-style:normal;
+	/* border:1px solid green; */
+}
+
+.joinVar input{
+	height:30px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-size: 15px;
+	font-style:normal;
+}
+
+.joinVar span{
+	font-size: 13px;
+	font-style:normal;
+}
+
+.joinVar select{
+	width:60px;
+	height:35px;
+	font-size:15px;
+	font-style:normal;
+}
+
+.join-text{
+	width:120px;
+	height:40px;
+	font-size: 15px;
+	font-style:normal;
+	font-weight:bold;
+	text-align:left;
+	border:1px solid red;
+}
+
+/* 버튼 스타일 */
+.overlap{
+	width:130px;
+	height:30px;
+	font-size:15px;
+	font-style:normal;
+	color:#fff;	
+	background-color:#3B3C56;
+}
+
+.overlap:hover{
+	color:#f3eed5;
+	background-color:#61627d;
+}
+
+#joinButton{
+	width:120px;
+	height:30px;
+	margin-top:5px;
+    margin-right:30px;
+	float:right;
+	font-size:15px;
+	font-style:normal;
+	color:#fff;	
+	position:relative;
+	bottom:10px;
+	background-color:#3B3C56;
+}
+
+#joinButton:hover{
+	color:#f3eed5;
+	background-color:#61627d;
+}

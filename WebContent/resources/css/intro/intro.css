@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#introSet{
+	overflow: hidden;
+}
+
+.intBox{
+	width:100%;
+	height:800px;
+}
+
+.intBox h1{
+	font-size:25px;
+	font-weight:900;
+	text-align:center;
+	margin-top:40px;
+	color:#3B3C56;
+	position:relative;
+}
+
+.introBox1{
+	width:30%;
+	height:450px;
+	margin-top:40px;
+	position:absolute;
+}
+
+.introBox2{
+	width:30%;
+	height:450px;
+	left:35%;
+	margin-top:40px;
+	position:absolute;
+}
+
+.introBox3{
+	width:30%;
+	height:450px;
+	left:70%;
+	margin-top:40px;
+    position:absolute;
+}
+
+/* 더보기 버튼  */
+.intSub01 .intNext, .intSub02 .intNext, .intSub03 .intNext{
+	font-size:13px;
+	position:relative;
+	float:right;
+	top:5px;
+	right:10px;
+	font-size: 15px;
+	font-weight: bold;
+	/* border:1px solid red; */
+}
+
+.intSub01 .intNext:hover, .intSub02 .intNext:hover, .intSub03 .intNext:hover{
+	text-decoration:none;
+	color:#ff7171;
+}
+

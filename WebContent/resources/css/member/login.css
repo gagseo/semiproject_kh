@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* layout */
+#loginSet {
+	overflow: hidden;
+}
+
+#loginSet .log_sub {
+	float: left;
+	width: 100%;
+	height: 700px;
+	margin-top:30px;
+	margin-bottom:30px;
+	background-color: #eee
+}
+
+.log_sub .log_table{
+	width: 100%;
+	height:500px;
+}
+
+.log_table h1 {
+	font-size: 35px;
+	font-weight: 900;
+	top:120px;
+	left:46%;
+	display:inline-block;
+	position:relative;
+}
+
+.logForm{
+	width:100%;
+}
+
+.log_table table {
+	width:98%;
+	margin-top: 14%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+.log_table tr {
+	height: 30px;
+	padding: 5px;
+	font-size: 17px;
+	text-align:right;
+}
+
+.log_table td {
+	height: 30px;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.log_table td input {
+	width:53%;    
+	height: 30px;
+	padding: 5px;
+	float:left;
+	font-size: 13px;
+}
+
+.log_table #log_button{
+	width:37%;
+	height:45px;
+	float:right;
+	margin-top:40px;
+	margin-right:31.5%;
+	font-size:17px;
+	font-weight:900;
+	color:#fff;
+	background-color:#828282;
+}
+
+/* sns로그인 */
+.snsLogin{
+	overflow:hidden;
+}
+
+.snsLogin ul{
+    display:block;
+    left:33%;
+    position:absolute;
+}
+
+.snsLogin li{
+	float:left;
+	margin-top:100px;
+	margin-right:5px;
+
+}
+
+.snsLogin li a img{
+	width:130px;
+	height:35px;
+}
+
+/* 회원가입 및 아이디,비번찾기  */
+.findUser{
+	overflow:hidden;
+}
+
+.findUser ul{
+	display:block;
+	left:50%;
+	position:absolute;
+}
+
+.findUser li{
+	float:left;
+	margin-right:10px;
+	
+}	
+
+
+/* 화면 너비 0 ~ 1200px */
+@media ( max-width : 1240px) {
+	#wrap {
+		width: 100%;
+	}
+}
+
+/* 화면 너비 0 ~ 768px */
+@media ( max-width : 768px) {
+	#loginSet .log_sub {
+		width: 100%;
+	}
+}
+
+/* 화면 너비 0 ~ 480px */
+@media ( max-width : 480px) {
+	#nav {
+		width: 100%;
+		height: 200px;
+	}
+
+	#loginSet .log_sub {
+		width: 100%;
+		height:200px;
+	}
+}

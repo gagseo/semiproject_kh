@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.writerPg {
+	width: 1080px;
+	height: 870px;
+	border: 1px solid red;
+}
+
+.writerPg h2 {
+	width: 250px;
+	border-bottom: 2px solid #3B3C56;
+	color: #3B3C56;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 20px;
+	left: 450px;
+}
+
+.writerText {
+	width: 1000px;
+	height: 780px;
+	top: 40px;
+	left: 40px;
+	position: relative;
+	border: 1px solid green;
+}
+
+.writerText table {
+	width: 1000px;
+	/* border:1px solid red; */
+}
+
+.writerText th {
+	width: 150px;
+	height: 30px;
+	text-align: left;
+	font-size: 18px;
+	margin: 5px;
+	padding-left: 5px;
+	color: #fff;
+	background-color: #3b3c56;
+	/* border:1px solid cyan; */
+}
+
+.writerText td {
+	width: 830px;
+	height:30px;
+	text-align: left;
+	font-size: 15px;
+	margin: 5px;
+	left: 14px;
+	border: 1px solid #828282;
+	/* border:1px solid cyan; */
+}
+
+.writerText td input{
+	height:25px;
+}
+
+#check{
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+#check li{
+	float:left;
+	margin-left:10px;
+}
+
+#usedTitle {
+	width:830px;
+	height:30px;
+	text-align: left;
+	font-size: 15px;
+}
+
+#usedPrice {
+	width: 200px;
+	height: 30px;
+}
+
+#usedContent {
+	width:830px;
+	height:550px;
+}
+
+/* 등록하기 버튼쪽 */
+#save {
+	width: 150px;
+	height: 40px;
+	position: relative;
+	float: right;
+	right: 45px;
+	bottom:20px;
+	color: #fff;
+	background-color: #3B3C56;
+}
